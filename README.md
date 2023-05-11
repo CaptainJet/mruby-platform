@@ -1,6 +1,10 @@
 ## mruby-platform
 A small mruby gem to check what platform you've compiled for.
 
+```Ruby
+conf.gem :github => 'captainjet/mruby-platform', :branch => 'main'
+```
+
 ## Usage
 
 ```Ruby
