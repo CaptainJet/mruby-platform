@@ -1,4 +1,5 @@
 #include "mruby.h"
+#include "mruby/variable.h"
 
 mrb_sym mrb_get_platform_symbol(mrb_state *mrb, mrb_value)
 {
