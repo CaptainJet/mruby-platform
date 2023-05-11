@@ -1,7 +1,7 @@
 #include "mruby.h"
 #include "mruby/value.h"
 
-mrb_value mrb_get_platform_symbol(mrb_state *mrb, mrb_value)
+mrb_value mrb_get_platform_symbol(mrb_state *mrb, mrb_value self)
 {
 #if defined(WIN32) || defined(_WIN32) || defined(__WIN32__) || defined(__NT__)
 #ifdef _WIN64
